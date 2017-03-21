@@ -71,5 +71,3 @@ function fromPigLatin () {
     translate: translate
   };
 }
-var yeah = fromPigLatin();
-console.log(yeah.translate('ey-hay ou-yay otherfucker-may'));
