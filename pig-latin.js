@@ -71,3 +71,6 @@ function fromPigLatin () {
     translate: translate
   };
 }
+
+exports.toPigLatin = toPigLatin;
+exports.fromPigLatin = fromPigLatin;
