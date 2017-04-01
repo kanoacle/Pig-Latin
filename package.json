@@ -1,0 +1,24 @@
+{
+  "name": "Pig-Latin",
+  "version": "1.0.0",
+  "description": "Pig Latin Translator",
+  "main": "pig-latin.js",
+  "scripts": {
+    "test": "mocha --watch tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanoacle/Pig-Latin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanoacle/Pig-Latin/issues"
+  },
+  "homepage": "https://github.com/kanoacle/Pig-Latin#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
