@@ -2,8 +2,9 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const piggify = require('../pig-latin.js').toPigLatin;
-const humanize = require('../pig-latin.js').fromPigLatin;
+const piggy = require('../pig-latin.js');
+const piggify = piggy.toPigLatin;
+const humanize = piggy.fromPigLatin;
 
 describe('toPigLatin', () => {
   it('should be a function', () => {
